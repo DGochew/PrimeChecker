@@ -14,8 +14,8 @@ Create docker file and run the app
 `docker run -p 3333:5580 primechecker`  
 
 Complexity of the algorithms  
-`O(sqrt(n))` - complexity is prime algorithm  
-`O(x*sqrt(n))` - complexity next prime algorithm, where x is the count of times we check if the number is prime  
+`O(sqrt(n))` - Complexity for finding if single number is prime.
+`O(x*sqrt(n))` - Complexity for finding the next prime number. Where x is the count of times we check if the number is prime.
 
 Up to 430mb used heap memory, measured by Intellij  
 
