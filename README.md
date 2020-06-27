@@ -16,6 +16,7 @@ Create docker file and run the app
 Complexity of the algorithms  
 `O(sqrt(n))` - Complexity for finding if single number is prime.
 `O(x*sqrt(n))` - Complexity for finding the next prime number. Where x is the count of times we check if the number is prime.
+`O(nloglogn)` - Algorithm Sieve of Eratosthenes
 
 Up to 430mb used heap memory, measured by Intellij  
 
