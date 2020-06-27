@@ -44,7 +44,7 @@ public class PrimeCheckerServiceImplTest {
     @Test
     public void testIsPrimeCornerCaseValueOne() {
         boolean result = primeCheckerService.isPrime(BigInteger.ONE);
-        assertThat(result).isEqualTo(true);
+        assertThat(result).isEqualTo(false);
     }
 
     @Test
@@ -129,7 +129,7 @@ public class PrimeCheckerServiceImplTest {
     @Test
     public void testFindNextPrimeCornerCaseWithOne() {
         BigInteger nextPrime = primeCheckerService.findNextPrime(BigInteger.ONE);
-        assertThat(nextPrime).isEqualTo(BigInteger.ONE);
+        assertThat(nextPrime).isEqualTo(BigInteger.valueOf(2));
     }
 
     @Test
